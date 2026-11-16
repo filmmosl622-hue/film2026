@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!-- HTML : APP24/MOB -->
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star Cinema</title>
+<!-- تم دمج الخطوط في طلب واحد وإزالة مكتبات الأيقونات غير المستخدمة لتسريع الرندر -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&family=Readex+Pro:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+body {
+padding:0;
+margin:0;
+user-select:none;
+list-style:none;
+background:#fff;
+font-family: 'Readex Pro', sans-serif;
+}
+header {
+background:#26ab56;
+padding:0 15px;
+color:#fff;
+margin-bottom:10px;
+position:fixed;
+top:0;
+height:60px;
+width:100%;
+box-shadow: 0px 0px 7px black;
+z-index:10;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-sizing: border-box;
+}
+h3 {
+text-align:right;
+font-size:medium;
+font-weight:200;
+margin:0;
+color: #fff;
+}
+/* تنسيق زر الريلود العلوي */
+.reload-btn {
+background: rgba(255, 255, 255, 0.2);
+border: none;
+color: #fff;
+padding: 6px 10px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 13px;
+display: flex;
+align-items: center;
+gap: 5px;
+font-family: 'Readex Pro', sans-serif;
+}
+.reload-btn:active {
+background: rgba(0, 0, 0, 0.3);
+}
+#page:hover {
+background:none;
+}
+#page {
+margin-top:75px;
+width:98%;
+padding-right:4px;
+padding-left:2px;
+}
+#page a:hover {
+background:#111;
+}
+#page a {
+width:110px;
+border:2px solid #2ecb66;
+height:120px;
+display:inline-block;
+border-radius:8px;
+margin-bottom:10px;
+text-decoration:none;
+position: relative;
+overflow: hidden;
+}
+#page a img {
+height:120px;
+margin-right:0px;
+width:100%;
+border-radius:8px;
+}
+#page a .episode-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 0, 0);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    padding: 4px 0;
+    margin: 0;
+}
+</style>
+</head>
+<!-- BY MoCreators -->
+<body dir="rtl">
+<header>
+    <h3>Star Cinema</h3>
+    <!-- زر الريلود (إعادة تحميل الصفحة) -->
+    <button class="reload-btn" onclick="location.reload();">
+        <i class="fa fa-refresh"></i> تحديث
+    </button>
+</header>
+<!-- BY MoCreators -->
+<div id="page">
+
+
+<a href="go:kali1">
+    <img src="https://i.ibb.co/gZ2yR0zM/315x420-044752b9e0d459579c67545180ae42f534adea2a963af175cb3591492f125ce4.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">خلي بالك من نفسك</div>
+</a>
+
+
+<a href="go:masmot1">
+    <img src="https://d.top4top.io/p_39500bmnz1.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">مسالة حياة او موت</div>
+</a>
+
+
+<a href="go:qfla1">
+    <img src="https://e.top4top.io/p_39507n5jk2.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">قفلة</div>
+</a>
+
+<a href="go:b32">
+    <img src="https://i.ibb.co/bRJjs51y/p-39468ih2i1.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">b32</div>
+</a>
+
+
+<a href="go:skkr1">
+    <img src="https://d.top4top.io/p_3940m7j4t1.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">صقر وكناريا</div>
+</a>
+
+
+<a href="go:alkss1">
+    <img src="https://i.ibb.co/SXvmsZxn/p-3829kdcut2.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">القصص</div>
+</a>
+
+<a href="go:laion1">
+    <img src="https://i.ibb.co/qLLpJyGw/p-3788sip4x1.jpg" alt="اسد" loading="lazy" width="110" height="120">
+    <div class="episode-title">اسد</div>
+</a>
+
+<a href="go:ahebk1">
+    <img src="https://e.top4top.io/p_3875wc7vd1.jpg" alt="طلقني" loading="lazy" width="110" height="120">
+    <div class="episode-title">احبك من زمان</div>
+</a>
+
+
+
+<a href="go:tslgny1">
+    <img src="https://i.ibb.co/qMJfm7sr/p-368820xfb4.jpg" alt="طلقني" loading="lazy" width="110" height="120">
+    <div class="episode-title">طلقني</div>
+</a>
+
+
+<a href="go:wlnafe1">
+    <img src="https://b.top4top.io/p_3688ujajv5.jpeg" alt="ولنا في الخيال" loading="lazy" width="110" height="120">
+    <div class="episode-title">ولنا في الخيال</div>
+</a>
+
+<a href="go:elana1">
+    <img src="https://h.top4top.io/p_3841yfqpy1.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">العرافة واللعنة</div>
+</a>
+
+
+
+
+
+<a href="go:alkss1">
+    <img src="https://i.ibb.co/SXvmsZxn/p-3829kdcut2.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">القصص</div>
+</a>
+
+
+<a href="go:engabekot1">
+    <img src="https://i.ibb.co/dwK26BTs/p-3688rkzrn6.jpg" alt="ان غاب القط" loading="lazy" width="110" height="120">
+    <div class="episode-title">ان غاب القط</div>
+</a>
+
+<a href="go:kolnia1">
+    <img src="https://j.top4top.io/p_3688aqu2a1.jpeg" alt="كولونيا" loading="lazy" width="110" height="120">
+    <div class="episode-title">كولونيا</div>
+</a>
+
+<a href="go:family1">
+    <img src="https://b.top4top.io/p_3737skbjc1.jpg" alt="فاميلي بزنس" loading="lazy" width="110" height="120">
+    <div class="episode-title">فاميلي بزنس</div>
+</a>
+
+
+<a href="go:dogs7">
+    <img src="https://i.ibb.co/0y1cSCn0/p-3800ee0851.jpg" alt="سفن دوجس" loading="lazy" width="110" height="120">
+    <div class="episode-title">7Dogs</div>
+</a>
+
+<a href="go:elset1">
+    <img src="https://f.top4top.io/p_37981hos11.jpg" alt="الست" loading="lazy" width="110" height="120">
+    <div class="episode-title">الست</div>
+</a>
+
+
+<a href="go:ramady1">
+    <img src="https://i.ibb.co/Kj6XSzGk/p-3799ynrg71.jpg" alt="رمادي" loading="lazy" width="110" height="120">
+    <div class="episode-title">رمادي</div>
+</a>
+
+
+<a href="go:mosmra1">
+    <img src="https://i.ibb.co/KcYj9Hfh/p-3799w3oi21.jpg" alt="المستعمرة" loading="lazy" width="110" height="120">
+    <div class="episode-title">المستعمرة</div>
+</a>
+
+
+<a href="go:bersma2">
+    <img src="https://l.top4top.io/p_3796r9gvr1.jpg" alt="الكلام" loading="lazy" width="110" height="120">
+    <div class="episode-title">برشامة</div>
+</a>
+
+
+
+<a href="go:elklam1">
+    <img src="https://i.ibb.co/1Yzx9X5N/p-37894xjjn1.jpg" alt="الكلام" loading="lazy" width="110" height="120">
+    <div class="episode-title">الكلام علي اية</div>
+</a>
+
+
+
+<a href="go:exmax1">
+    <img src="https://i.ibb.co/5hZF8Z0P/p-3779nkwec1.jpg" alt="عصابة الماكس" loading="lazy" width="110" height="120">
+    <div class="episode-title">عصابة الماكس</div>
+</a>
+
+<a href="go:elrabied1">
+    <img src="https://i.ibb.co/fzJC5Hdm/p-37748hicw1.jpg" alt="دخل الربيع يضحك" loading="lazy" width="110" height="120">
+    <div class="episode-title">دخل الربيع يضحك</div>
+</a>
+
+
+<a href="go:ezeldohr1">
+    <img src="https://i.ibb.co/2YNVrzzK/p-3736jyqtt2.png" alt="في عز الضهر" loading="lazy" width="110" height="120">
+    <div class="episode-title">في عز الضهر</div>
+</a>
+
+<a href="go:basmobahr1">
+    <img src="https://l.top4top.io/p_3736q1uf91.png" alt="بث مباشر" loading="lazy" width="110" height="120">
+    <div class="episode-title">بث مباشر</div>
+</a>
+
+<a href="go:sfah1">
+    <img src="https://i.ibb.co/0jrb7rV7/p-3734vcofh1.jpg" alt="سفاح التجمع" loading="lazy" width="110" height="120">
+    <div class="episode-title">سفاح التجمع (سينما)</div>
+</a>
+
+
+
+<a href="go:egy1">
+    <img src="https://i.ibb.co/CKgGrvY0/p-37333lmsz1.jpg" alt="ايجي بيست" loading="lazy" width="110" height="120">
+    <div class="episode-title">ايجي بيست (سينما)</div>
+</a>
+
+<a href="go:ahmed1">
+    <img src="https://b.top4top.io/p_3730w9bd21.jpg" alt="احمد واحمد" loading="lazy" width="110" height="120">
+    <div class="episode-title">احمد واحمد </div>
+</a>
+
+<a href="go:selm2">
+    <img src="https://i.ibb.co/S7xjJK9S/p-3729uvx001.jpg" alt="السلم والتعبان" loading="lazy" width="110" height="120">
+    <div class="episode-title">السلم والتعبان </div>
+</a>
+
+<a href="go:sno1">
+    <img src="https://b.top4top.io/p_36885hf131.jpeg" alt="سنو وايت" loading="lazy" width="110" height="120">
+    <div class="episode-title">سنو وايت</div>
+</a>
+
+<a href="go:asr1">
+    <img src="https://i.ibb.co/yc5Fdvrh/p-3688ccowb2.jpg" alt="قصر الباشا" loading="lazy" width="110" height="120">
+    <div class="episode-title">قصر الباشا</div>
+</a>
+
+<a href="go:esada1">
+    <img src="https://d.top4top.io/p_3688i31ss3.jpeg" alt="السادة الافاضل" loading="lazy" width="110" height="120">
+    <div class="episode-title">السادة الافاضل</div>
+</a>
+
+<a href="go:fehaeh1">
+    <img src="https://b.top4top.io/p_37881ttcw1.jpg" alt="فيها اية يعني" loading="lazy" width="110" height="120">
+    <div class="episode-title">فيها اية يعني</div>
+</a>
+
+<a href="go:wate1">
+    <img src="https://f.top4top.io/p_3688xnl945.jpeg" alt="وقت اضافي" loading="lazy" width="110" height="120">
+    <div class="episode-title">وقت اضافي</div>
+</a>
+
+
+
+<a href="go:gwzaela1">
+    <img src="https://i.ibb.co/TBs81ZQ0/p-36889lhcw2.jpg" alt="جنازة ولا جوازة" loading="lazy" width="110" height="120">
+    <div class="episode-title">جنازة ولا جوازة</div>
+</a>
+
+<a href="go:kareda1">
+    <img src="https://l.top4top.io/p_3688pzwtd3.jpeg" alt="خريطة راس" loading="lazy" width="110" height="120">
+    <div class="episode-title">خريطة راس</div>
+</a>
+
+<a href="go:elmolhd1">
+    <img src="https://i.ibb.co/Nn2wfjJs/p-3788zv0952.jpg" alt="الملحد" loading="lazy" width="110" height="120">
+    <div class="episode-title">الملحد</div>
+</a>
+
+</div>
+
+<!-- كود التحديث التلقائي كل 10 ثوانٍ (10000 ميلي ثانية) -->
+<script>
+setTimeout(function(){
+    location.reload();
+}, 10000);
+</script>
+
+</body>
+</html>
